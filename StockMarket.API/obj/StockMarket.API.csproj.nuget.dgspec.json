@@ -1,0 +1,161 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\devskill classes\\jalal sir(c#)\\Exam 2 secondTime\\StockMarket.API\\StockMarket.API.csproj": {}
+  },
+  "projects": {
+    "E:\\devskill classes\\jalal sir(c#)\\Exam 2 secondTime\\StockMarket.API\\StockMarket.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\devskill classes\\jalal sir(c#)\\Exam 2 secondTime\\StockMarket.API\\StockMarket.API.csproj",
+        "projectName": "StockMarket.API",
+        "projectPath": "E:\\devskill classes\\jalal sir(c#)\\Exam 2 secondTime\\StockMarket.API\\StockMarket.API.csproj",
+        "packagesPath": "C:\\Users\\SHAHED\\.nuget\\packages\\",
+        "outputPath": "E:\\devskill classes\\jalal sir(c#)\\Exam 2 secondTime\\StockMarket.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SHAHED\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\devskill classes\\jalal sir(c#)\\Exam 2 secondTime\\StockMarket.Data\\StockMarket.Data.csproj": {
+                "projectPath": "E:\\devskill classes\\jalal sir(c#)\\Exam 2 secondTime\\StockMarket.Data\\StockMarket.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\devskill classes\\jalal sir(c#)\\Exam 2 secondTime\\StockMarket.Data\\StockMarket.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\devskill classes\\jalal sir(c#)\\Exam 2 secondTime\\StockMarket.Data\\StockMarket.Data.csproj",
+        "projectName": "StockMarket.Data",
+        "projectPath": "E:\\devskill classes\\jalal sir(c#)\\Exam 2 secondTime\\StockMarket.Data\\StockMarket.Data.csproj",
+        "packagesPath": "C:\\Users\\SHAHED\\.nuget\\packages\\",
+        "outputPath": "E:\\devskill classes\\jalal sir(c#)\\Exam 2 secondTime\\StockMarket.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SHAHED\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
